@@ -1,0 +1,65 @@
+<!-- 
+        - #POPULAR
+      -->
+
+
+<!-- popular_highlights.ejs -->
+
+<section class="popular" id="highlights">
+    <div class="container">
+
+        <p class="section-subtitle">
+            Set Sail with Flamingo
+        </p>
+
+        <h2 class="h2 section-title">
+            What Sets Us Apart
+        </h2>
+
+        <p class="section-text">
+
+            At Flamingo, we take pride in offering more than just boat tours. Our mission is to create unforgettable
+            experiences that transcend traditional tourism. What sets us apart is our commitment to personalized service
+            and meticulous attention to detail. From the moment you step on board, our dedicated team ensures that every
+            aspect of your journey is tailored to your preferences. Whether it's indulging in curated snacks, sipping
+            fine wines, or enjoying a musical serenade, we strive to exceed your expectations at every turn.
+        </p>
+
+        <ul class="popular-list">
+            <% highlightsData.forEach(highlight=> { %>
+                <li>
+                    <div class="popular-card">
+                        <figure class="card-img">
+                            <img src="<%= highlight.image %>" alt="<%= highlight.altText %>" loading="lazy">
+                        </figure>
+                        <div class="card-content">
+                            <div class="card-rating">
+                                <% for (let i=0; i < highlight.rating; i++) { %>
+                                    <ion-icon name="star"></ion-icon>
+                                    <% } %>
+                            </div>
+                            <p class="card-subtitle">
+                                <a href="#">
+                                    <%= highlight.subtitle %>
+                                </a>
+                            </p>
+                            <h3 class="h3 card-title">
+                                <a href="#">
+                                    <%= highlight.title %>
+                                </a>
+                            </h3>
+                            <p class="card-text">
+                                <%= highlight.description %>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <% }); %>
+        </ul>
+
+        <button value="More destinations" id="highlightsBtn" class="btn btn-primary">More destinations</button>
+
+    </div>
+</section>
+
+<link href="css/style.css" rel="stylesheet">

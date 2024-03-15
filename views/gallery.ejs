@@ -1,0 +1,30 @@
+<section class="gallery " id="gallery">
+    <div class="container ">
+
+        <p class="section-subtitle">Photo Gallery</p>
+
+        <h2 class="h2 section-title">Photo's From Travellers</h2>
+
+        <p class="section-text">
+            Unveil the allure of Flamingo's boat tours through our captivating gallery. Dive into a world of
+            stunning waterways, vibrant cityscapes, and awe-inspiring landscapes captured by fellow adventurers.
+            Let these images ignite your wanderlust and inspire your next unforgettable adventure with us.
+        </p>
+
+        <ul class="gallery-list ">
+            <% galleryData.forEach(image=> {
+                %>
+
+                <li class="gallery-item">
+                    <figure class="gallery-image">
+                        <img src="images/<%= image %>" alt="Gallery image">
+                    </figure>
+                </li>
+                <% }); %>
+
+
+
+        </ul>
+
+    </div>
+</section>
