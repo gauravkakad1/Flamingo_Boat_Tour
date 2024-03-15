@@ -722,6 +722,8 @@ body {
 
 .package-card .card-content {
   padding: 30px 20px;
+  background-color: rgb(219, 231, 245);
+
 }
 
 .package-card .card-title {
