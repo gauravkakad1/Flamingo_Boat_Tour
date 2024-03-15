@@ -438,6 +438,7 @@ responsive navbar
   }
 
   .logo {
+    color: black;
     display: flex;
     align-items: center;
   }
