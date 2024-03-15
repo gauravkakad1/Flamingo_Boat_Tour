@@ -430,39 +430,6 @@ body {
 /*
 responsive navbar
 */
-@media screen and (max-width: 767px) {
-  .header-top-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .logo {
-    color: black;
-    display: flex;
-    align-items: center;
-  }
-
-  #logo_name {
-    color: white;
-    font-weight: 1000;
-    margin-left: 10px;
-    white-space: nowrap;
-  }
-
-  .header-btn-group {
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  .header-btn-group button {
-    margin: 0 5px;
-  }
-
-  .header-bottom {
-    padding: 10px 0;
-  }
-}
 
 
 /*-----------------------------------*\
