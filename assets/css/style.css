@@ -660,7 +660,8 @@ responsive navbar
   overflow: hidden;
   border-radius: var(--radius-25);
   height: 530px;
-  width: 400px;
+  /* width: 400px; */
+  width: 100%;
 }
 
 .popular-card .card-img {
@@ -682,6 +683,7 @@ responsive navbar
   border-radius: var(--radius-25);
   padding: 20px;
 }
+
 
 
 .popular-card .card-rating {
@@ -785,6 +787,7 @@ responsive navbar
     /* Set larger height for screens wider than 768px */
   }
 }
+
 
 .package-card .card-content {
   padding: 30px 20px;
