@@ -29,3 +29,9 @@
    ```
 4. Open http://localhost:5000
 5. You need to first signup and then login to run the application.
+
+
+## Update Data Dynamically by using Data.js file
+
+- for now i have not connect data with backend database 
+- you can update data manually by just updating the data.js file data and it will update the UI dynamically.
