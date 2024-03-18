@@ -27,8 +27,8 @@
    ```sh
    npm start
    ```
-4. Open http://localhost:5000
-5. You need to first signup and then login to run the application.
+3. Open http://localhost:5000
+
 
 
 ## Update Data Dynamically by using Data.js file
