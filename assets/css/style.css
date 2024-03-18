@@ -688,6 +688,7 @@ responsive navbar
 
 
 
+
 .popular-card .card-rating {
   background: var(--bright-navy-blue);
   color: var(--white);
@@ -898,7 +899,6 @@ responsive navbar
 
   margin-inline: auto;
 }
-
 
 
 
@@ -1265,9 +1265,7 @@ address {
    * POPULAR
    */
 
-  .popular-card .card-content {
-    right: auto;
-  }
+
 
 
 

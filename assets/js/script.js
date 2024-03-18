@@ -56,10 +56,10 @@ document.addEventListener('DOMContentLoaded', () => {
       item.classList.toggle('hidden');
     });
 
-    if (highlightsBtn.textContent === 'More destinations') {
-      highlightsBtn.textContent = 'Less destinations';
+    if (highlightsBtn.textContent === 'More Highlights') {
+      highlightsBtn.textContent = 'Less Highlights';
     } else {
-      highlightsBtn.textContent = 'More destinations';
+      highlightsBtn.textContent = 'More Highlights';
     }
   });
 });
